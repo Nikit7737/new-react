@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+}
+.bgimg{
+  background: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c291cmNlJTIwY29kZXxlbnwwfHwwfHw%3D&w=1000&q=80) center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 488px;
+  opacity: 1.5;
+  
+  
+
+}
+.log{
+  margin-left: 65px;
+}
+.but{
+  margin-right: 55px;
+}
+.togg{
+  margin: 0 -12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.navtop{
+       height: 84px;
+     }
+     
+      ul li a:hover{
+       color: aqua;
+     }
+    
+    
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+  /* .breadcrumbs-custom-path {
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+ 
+     */
+     .cstm-card-body {
+      display: block;
+      position: relative;
+      padding: 32px 24px;
+       text-decoration: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    
+    .cstm-card-first:before {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      bottom: -16px;
+      left: -16px;
+      background: #16b6d2;
+      height: 50px;
+      width: 50px;
+      border-radius: 32px;
+      transform: scale(0);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+
+    }
+    .cstm-card-first:hover:before {
+      transform: scale(21);
+    }
+    .sidebar li a{
+      color: darkgray;
+    }
+
+
+    /* Footer */
+
+
+    .down{
+      margin-top: 144px;
+      
+    }
+    .font1 li a {
+      color: black;
+    }
+    .font1{
+      list-style: none;
+      
+    }
+
+    .bord1{
+      height: 40px;
+    width: 393px;
+    border-radius: 5px;
 }
